@@ -28,7 +28,7 @@ The RGBNT201 dataset was used, consisting of 201 identities, with 171 for traini
 The best performance was achieved using the Swin Transformer Model D.
 | Model            | mAP  | rank@1 |
 |------------------|------|--------|
-| Variasi Loss A   | 24.55| 48.33  |
+| Loss Var. A (circle + triplet)   | 24.55| 48.33  |
 | Variasi Loss B   | 29.66| 56     |
 | AutoAugment C    | 31.26| 60.33  |
 | Variasi Loss C   | 31.55| 57.33  |
