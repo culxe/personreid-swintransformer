@@ -14,19 +14,28 @@ The RGBNT201 dataset was used, consisting of 201 identities, with 171 for traini
 
 ### Testing Models
 
-- **Model A:** Circle + Triplet + Contrast Loss
-- **Model B:** Circle + Triplet Loss
-- **Model C:** Circle Loss
-- **Model D:** Circle + Contrast Loss
-- **AutoAugment:** Applied to each loss variation
-<img src="/result/modelreid-applied.png" alt="Alt text" width="500"/>
+| Model | Circle | Contrast | Triplet |
+|-------|--------|----------|---------|
+|   A   |   ✔    |    ✘     |    ✔    |
+|   B   |   ✔    |    ✔     |    ✔    |
+|   C   |   ✔    |    ✘     |    ✘    |
+|   D   |   ✔    |    ✔     |    ✘    |
 
 ## Results
 
 ### Rank and mAP Results
 
 The best performance was achieved using the Swin Transformer Model D.
-<img src="/result/result-rankMAP.png" alt="Alt text" width="500"/>
+| Model            | mAP  | rank@1 |
+|------------------|------|--------|
+| Variasi Loss A   | 24.55| 48.33  |
+| Variasi Loss B   | 29.66| 56     |
+| AutoAugment C    | 31.26| 60.33  |
+| Variasi Loss C   | 31.55| 57.33  |
+| Variasi Loss D   | 31.55| 57.33  |
+| AutoAugment A    | 31.79| 57.66  |
+| AutoAugment B    | 32.55| 60     |
+| **AutoAugment D**|**32.79**|**63**|
 
 ### Prediction Visualization Results
 
