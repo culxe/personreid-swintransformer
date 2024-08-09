@@ -19,7 +19,7 @@ refer from [Swin transformer: Hierarchical vision transformer using shifted wind
 <img src="/result/bab3_patchembedding.png" alt="Alt text" width="800"/>
 
 #### Windows Multi Head Attention
-<img src="/result/bab3_wmsa.png" alt="Alt text" width="800"/>
+<img src="/result/bab3_wmsa.png" alt="Alt text" width="700"/>
 
 #### Shifted Windows Multi Head Attention
 <img src="/result/bab3_swmsa.png" alt="Alt text" width="800"/>
