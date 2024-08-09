@@ -30,12 +30,12 @@ The best performance was achieved using the Swin Transformer Model D.
 |------------------|------|--------|
 | Loss Var. A (circle + triplet)   | 24.55| 48.33  |
 | Loss Var. B (circle + contrast + triplet)   | 29.66| 56     |
-| AutoAugment C (circle)    | 31.26| 60.33  |
-| Variasi Loss C (circle)   | 31.55| 57.33  |
-| Variasi Loss D (cirle + contrast)   | 31.55| 57.33  |
-| AutoAugment A (circle + triplet)    | 31.79| 57.66  |
-| AutoAugment B (circle + contrast + triplet)    | 32.55| 60     |
-| **AutoAugment D (cirle + contrast)**|**32.79**|**63**|
+| AutoAugment C (circle + autoaugment)    | 31.26| 60.33  |
+| Loss Var. C (circle)   | 31.55| 57.33  |
+| Loss Var. D (cirle + contrast)   | 31.55| 57.33  |
+| AutoAugment A (circle + triplet + autoaugment)    | 31.79| 57.66  |
+| AutoAugment B (circle + contrast + triplet + autoaugment)    | 32.55| 60     |
+| **AutoAugment D (cirle + contrast + autoaugment)**|**32.79**|**63**|
 
 ### Prediction Visualization Results
 
