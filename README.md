@@ -13,6 +13,8 @@ The objective is to develop a deep learning model using the Swin Transformer cla
 The RGBNT201 dataset was used, consisting of 201 identities, with 171 for training and 30 for testing. In model development, the Swin Transformer architecture was used with Windows Multi Head Attention (W-MSA) and Shifted Windows Multi Head Attention (SW-MSA). The model was tested using various Loss Functions (Circle, Triplet, Contrastive) and an Auto-Augment method was added to the model. The Auto-Augment policy was sourced from ImageNet.
 
 ### Data implementation on Swin Transformer
+refer from [Swin transformer: Hierarchical vision transformer using shifted windows](https://arxiv.org/pdf/2103.14030), this is impelementation using multi-modal dataset on Swin Transformer.
+
 #### Patch Embedding
 <img src="/result/bab3_patchembedding.png" alt="Alt text" width="800"/>
 
