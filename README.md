@@ -69,3 +69,9 @@ Grad-CAM analysis showed that the model focuses well on the human body for predi
 4. Z. Liu et al., “Swin transformer: Hierarchical vision transformer using shifted windows,” In Proc. IEEE Int. Conf. Comput. Vis., 2021, pp. 9992–10002. doi: 10.1109/ICCV48922.2021.00988.
 5. E. D. Cubuk, B. Zoph, D. Mane, V. Vasudevan, and Q. V. Le, “Autoaugment: Learning augmentation policies from data, 2019. arXiv: 1805.09501 [cs.CV].
 6. R. R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, and D. Batra, “Grad-cam: Visual explanations from deep networks via gradient-based localization,” International Journal of Computer Vision, vol. 128, no. 2, pp. 336–359, Oct. 2019, issn: 1573-1405. doi: 10.1007/s11263-019-01228-7. [Online]. Available: http://dx.doi.org/10. 1007/s11263-019-01228-7 (visited on 2024).
+
+
+## Disclaimer
+
+We apologize for any errors or inaccuracies in this repository. Please feel free to raise an issue or contact us if you notice something that needs correction or improvement. Your feedback is highly appreciated!
+
