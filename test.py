@@ -233,14 +233,14 @@ def get_id(img_paths):
     labels = []
     for path, _ in img_paths:
         filename = os.path.basename(path)
-        filename = filename[:-4]  # Menghapus ekstensi ".jpg" dari nama file
+        filename = filename[:-4]  
         parts = filename.split('_')
 
-        label = int(parts[0])  # Ambil label dari nama file
-        camera = int(parts[1].replace('cam', ''))  # Ambil ID kamera
+        label = int(parts[0])  
+        camera = int(parts[1].replace('cam', '')) 
 
-        # Tentukan ID kamera berdasarkan modalitas
-        modality = parts[4]  # Ambil modalitas dari indeks 4
+        
+        modality = parts[4] 
         if modality == "NI":
             camera += 0
         elif modality == "TI":
@@ -248,7 +248,6 @@ def get_id(img_paths):
         elif modality == "RGB":
             camera += 20
 
-        # Tambahkan ke daftar ID kamera dan label
         camera_id.append(camera)
         labels.append(label)
 
@@ -260,37 +259,6 @@ query_path = image_datasets['query'].imgs
 
 gallery_cam,gallery_label = get_id(gallery_path)
 query_cam,query_label = get_id(query_path)
-
-# from collections import Counter
-
-# def count_labels_and_cameras(labels, cameras):
-#     # Menghitung jumlah label dan kamera
-#     counter_labels = Counter(labels)
-#     counter_cameras = Counter(cameras)
-
-#     return counter_labels, counter_cameras
-
-# # Contoh penggunaan:
-# counter_gallery_labels, counter_gallery_cameras = count_labels_and_cameras(gallery_label, gallery_cam)
-# counter_query_labels, counter_query_cameras = count_labels_and_cameras(query_label, query_cam)
-
-# # Menampilkan hasil
-# print("Jumlah label di galeri:")
-# for label, count in counter_gallery_labels.items():
-#     print(f"Label {label}: {count} gambar")
-
-# print("\nJumlah kamera di galeri:")
-# for camera, count in counter_gallery_cameras.items():
-#     print(f"Kamera {camera}: {count} gambar")
-
-# print("\nJumlah label di query:")
-# for label, count in counter_query_labels.items():
-#     print(f"Label {label}: {count} gambar")
-
-# print("\nJumlah kamera di query:")
-# for camera, count in counter_query_cameras.items():
-#     print(f"Kamera {camera}: {count} gambar")
-
 
 if opt.multi:
     mquery_path = image_datasets['multi-query'].imgs
