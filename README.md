@@ -15,10 +15,13 @@ The RGBNT201 dataset was used, consisting of 201 identities, with 171 for traini
 ### Data implementation on Swin Transformer
 #### Patch Embedding
 <img src="/result/bab3_patchembedding.png" alt="Alt text" width="800"/>
+
 #### Windows Multi Head Attention
 <img src="/result/bab3_wmsa.png" alt="Alt text" width="800"/>
+
 #### Shifted Windows Multi Head Attention
 <img src="/result/bab3_swmsa.png" alt="Alt text" width="800"/>
+
 
 ### Testing Models
 
