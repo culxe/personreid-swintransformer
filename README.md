@@ -19,8 +19,7 @@ The RGBNT201 dataset was used, consisting of 201 identities, with 171 for traini
 - **Model C:** Circle Loss
 - **Model D:** Circle + Contrast Loss
 - **AutoAugment:** Applied to each loss variation
-
-The dataset is split into patches and then further divided into windows for self-attention. After WMSA, the windows undergo cyclic shift and Masked Self Attention. The model learns not only per window but also the relationships between windows.
+<img src="/result/modelreid-applied.png" alt="Alt text" width="800"/>
 
 **Evaluation:**  
 - Rank and mAP (mean Average Precision) performance metrics.
@@ -31,17 +30,19 @@ The dataset is split into patches and then further divided into windows for self
 
 ### Rank and mAP Results
 
-The best performance was achieved using the Swin Transformer Model D, surpassing the previous model (PFNet). It showed an improvement of 3.24% in mAP and 15.4% in rank@1 compared to PFNet using Swin AutoAugment D.
+The best performance was achieved using the Swin Transformer Model D.
+<img src="/result/result-rankMAP.png" alt="Alt text" width="800"/>
 
 ### Prediction Visualization Results
 
 - **Query Performance:**
-got the best model with Model Swin AutoAugment B (RGB: 10/10 , TI: 10/10, NI: 9/10)
+got the best model with Model Swin AutoAugment B Circle + Triplet Loss, with RGB: 10/10, TI: 10/10, NI: 9/10
 <img src="/result/SwinAugmentedB-Visualize.png" alt="Alt text" width="800"/>
 
 ### Grad-CAM Results
 
 Grad-CAM analysis showed that the model focuses well on the human body for predictions. However, the Auto-Augment model provided better-focused results on relevant image areas.
+<img src="/result/query_visualization_allmodels.png" alt="Alt text" width="800"/>
 
 ## Conclusion
 
