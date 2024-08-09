@@ -33,6 +33,7 @@ refer from [Swin transformer: Hierarchical vision transformer using shifted wind
 |   B   |   ✔    |    ✔     |    ✔    |
 |   C  |   ✔    |    ✘     |    ✘    |
 |   D  |   ✔    |    ✔     |    ✘    |
+
 *AutoAugment is applied to each loss variation.*
 
 ## Results
