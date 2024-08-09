@@ -29,10 +29,11 @@ refer from [Swin transformer: Hierarchical vision transformer using shifted wind
 
 | Model | Circle | Contrast | Triplet |
 |-------|--------|----------|---------|
-|   A   |   ✔    |    ✘     |    ✔    |
-|   B   |   ✔    |    ✔     |    ✔    |
-|   C   |   ✔    |    ✘     |    ✘    |
-|   D   |   ✔    |    ✔     |    ✘    |
+|   A Circle + Triplet + Contrast Loss  |   ✔    |    ✘     |    ✔    |
+|   B Circle + Triplet Loss   |   ✔    |    ✔     |    ✔    |
+|   C  Circle Loss |   ✔    |    ✘     |    ✘    |
+|   D  Circle + Contrast Loss |   ✔    |    ✔     |    ✘    |
+|   AutoAugment |   Applied to each loss variation    |
 
 ## Results
 
