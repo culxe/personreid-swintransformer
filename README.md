@@ -46,7 +46,8 @@ Grad-CAM analysis showed that the model focuses well on the human body for predi
 
 ## References
 
-1. A. Zheng, Z. Wang, Z. Chen, L. Li, and J. Tang, “Robust multi-modal person re-identification,” vol. 35, pp. 3529–3537, 2021. doi: 10.1609/aaai.v35i4.16497. Available: https://ojs.aaai.org/index.php/AAAI/article/view/16497. [Accessed on 2024]
-2. Z. Liu et al., “Swin transformer: Hierarchical vision transformer using shifted windows,” In Proc. IEEE Int. Conf. Comput. Vis., 2021, pp. 9992–10002. doi: 10.1109/ICCV48922.2021.00988.
-3. E. D. Cubuk, B. Zoph, D. Mane, V. Vasudevan, and Q. V. Le, “Autoaugment: Learning augmentation policies from data, 2019. arXiv: 1805.09501 [cs.CV].
-4. R. R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, and D. Batra, “Grad-cam: Visual explanations from deep networks via gradient-based localization,” International Journal of Computer Vision, vol. 128, no. 2, pp. 336–359, Oct. 2019, issn: 1573-1405. doi: 10.1007/s11263-019-01228-7. [Online]. Available: http://dx.doi.org/10. 1007/s11263-019-01228-7 (visited on 2024).
+1. [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master)
+2. A. Zheng, Z. Wang, Z. Chen, L. Li, and J. Tang, “Robust multi-modal person re-identification,” vol. 35, pp. 3529–3537, 2021. doi: 10.1609/aaai.v35i4.16497. Available: https://ojs.aaai.org/index.php/AAAI/article/view/16497. [Accessed on 2024]
+3. Z. Liu et al., “Swin transformer: Hierarchical vision transformer using shifted windows,” In Proc. IEEE Int. Conf. Comput. Vis., 2021, pp. 9992–10002. doi: 10.1109/ICCV48922.2021.00988.
+4. E. D. Cubuk, B. Zoph, D. Mane, V. Vasudevan, and Q. V. Le, “Autoaugment: Learning augmentation policies from data, 2019. arXiv: 1805.09501 [cs.CV].
+5. R. R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, and D. Batra, “Grad-cam: Visual explanations from deep networks via gradient-based localization,” International Journal of Computer Vision, vol. 128, no. 2, pp. 336–359, Oct. 2019, issn: 1573-1405. doi: 10.1007/s11263-019-01228-7. [Online]. Available: http://dx.doi.org/10. 1007/s11263-019-01228-7 (visited on 2024).
