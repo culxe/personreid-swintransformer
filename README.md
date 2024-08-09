@@ -48,15 +48,11 @@ got the best model with Model Swin AutoAugment B Circle + Triplet Loss, with RGB
 Grad-CAM analysis showed that the model focuses well on the human body for predictions. However, the Auto-Augment model provided better-focused results on relevant image areas.
 <img src="/result/query_visualization_allmodels.png" alt="Alt text" width="800"/>
 
-## Conclusion
-
-1. This research successfully developed a deep learning model using the Swin Transformer classifier for person re-identification on RGB, NI, and TI modalities.
-2. The best performance was achieved by Swin Transformer Model D with AutoAugment (using Circle Loss and Contrast Loss), achieving a mAP of 32.79% and rank@1 of 63%.
-
 ## References
 
 1. [Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch/tree/master)
-2. A. Zheng, Z. Wang, Z. Chen, L. Li, and J. Tang, “Robust multi-modal person re-identification,” vol. 35, pp. 3529–3537, 2021. doi: 10.1609/aaai.v35i4.16497. Available: https://ojs.aaai.org/index.php/AAAI/article/view/16497. [Accessed on 2024]
-3. Z. Liu et al., “Swin transformer: Hierarchical vision transformer using shifted windows,” In Proc. IEEE Int. Conf. Comput. Vis., 2021, pp. 9992–10002. doi: 10.1109/ICCV48922.2021.00988.
-4. E. D. Cubuk, B. Zoph, D. Mane, V. Vasudevan, and Q. V. Le, “Autoaugment: Learning augmentation policies from data, 2019. arXiv: 1805.09501 [cs.CV].
-5. R. R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, and D. Batra, “Grad-cam: Visual explanations from deep networks via gradient-based localization,” International Journal of Computer Vision, vol. 128, no. 2, pp. 336–359, Oct. 2019, issn: 1573-1405. doi: 10.1007/s11263-019-01228-7. [Online]. Available: http://dx.doi.org/10. 1007/s11263-019-01228-7 (visited on 2024).
+2. [IEEE](https://github.com/ziwang1121/IEEE) for multi-modal dataset
+3. A. Zheng, Z. Wang, Z. Chen, L. Li, and J. Tang, “Robust multi-modal person re-identification,” vol. 35, pp. 3529–3537, 2021. doi: 10.1609/aaai.v35i4.16497. Available: https://ojs.aaai.org/index.php/AAAI/article/view/16497. [Accessed on 2024]
+4. Z. Liu et al., “Swin transformer: Hierarchical vision transformer using shifted windows,” In Proc. IEEE Int. Conf. Comput. Vis., 2021, pp. 9992–10002. doi: 10.1109/ICCV48922.2021.00988.
+5. E. D. Cubuk, B. Zoph, D. Mane, V. Vasudevan, and Q. V. Le, “Autoaugment: Learning augmentation policies from data, 2019. arXiv: 1805.09501 [cs.CV].
+6. R. R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, and D. Batra, “Grad-cam: Visual explanations from deep networks via gradient-based localization,” International Journal of Computer Vision, vol. 128, no. 2, pp. 336–359, Oct. 2019, issn: 1573-1405. doi: 10.1007/s11263-019-01228-7. [Online]. Available: http://dx.doi.org/10. 1007/s11263-019-01228-7 (visited on 2024).
