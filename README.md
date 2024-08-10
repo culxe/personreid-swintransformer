@@ -1,5 +1,5 @@
 # Person Re-Identification on Multi-Modal Data Using Swin Transformer Classifier
-
+published on Institut Teknologi Sepuluh Nopember [repository](https://repository.its.ac.id/109264/)
 ## Background
 
 The increasing crime rates in Indonesia are alarming. Surveillance cameras are used to prevent crimes, but manual monitoring is still insufficient. A deep learning technology called Reidentification is used to reidentify individuals who have already been identified in a surveillance camera system. Field conditions can limit reidentification activities. Three spectrums of light can assist in this process: RGB, NI, and TI. Transformers, initially used in NLP, have shown potential in computer vision tasks. Swin Transformer, which incorporates a transformer hierarchy and shifted windows, is effective for complex vision tasks.
