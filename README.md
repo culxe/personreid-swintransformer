@@ -58,7 +58,7 @@ The best performance was achieved using the Swin Transformer Model D.
 got the best model with Model Swin AutoAugment B Circle + Triplet Loss, with RGB: 10/10, TI: 10/10, NI: 9/10
 <img src="/result/SwinAugmentedB-Visualize.png" alt="Alt text" width="800"/>
 with detailed prediction
-<img src="/result/SwinAutoaugment-predictdetail.png" alt="Alt text" width="800"/>
+<img src="/result/SwinAutoaugmentB-predictdetail.png" alt="Alt text" width="800"/>
 
 ### Grad-CAM Results
 
