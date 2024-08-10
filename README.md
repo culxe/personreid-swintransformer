@@ -10,7 +10,7 @@ The objective is to develop a deep learning model using the Swin Transformer cla
 
 ## Method
 
-The RGBNT201 dataset was used, consisting of 201 identities, with 171 for training and 30 for testing.
+Using [RGBNT201 dataset](https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH?usp=sharing), consisting of 201 identities, with 171 identities for training and 30 identities for testing.
 
 ### Data implementation on Swin Transformer
 refer from [Swin transformer: Hierarchical vision transformer using shifted windows](https://arxiv.org/pdf/2103.14030), this is impelementation using multi-modal dataset on Swin Transformer.
@@ -25,7 +25,7 @@ refer from [Swin transformer: Hierarchical vision transformer using shifted wind
 <img src="/result/bab3_swmsa.png" alt="Alt text" width="800"/>
 
 
-### Testing Models
+### Training and Testing Models
 
 | Model | Circle | Contrast | Triplet |
 |-------|--------|----------|---------|
@@ -57,6 +57,8 @@ The best performance was achieved using the Swin Transformer Model D.
 - **Query Performance:**
 got the best model with Model Swin AutoAugment B Circle + Triplet Loss, with RGB: 10/10, TI: 10/10, NI: 9/10
 <img src="/result/SwinAugmentedB-Visualize.png" alt="Alt text" width="800"/>
+with detailed prediction
+<img src="/result/SwinAutoaugment-predictdetail.png" alt="Alt text" width="800"/>
 
 ### Grad-CAM Results
 
