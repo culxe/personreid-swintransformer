@@ -58,6 +58,7 @@ got the best model with Model Swin AutoAugment B Circle + Triplet Loss, with RGB
 <img src="/result/SwinAugmentedB-Visualize.png" alt="Alt text" width="800"/>
 
 with detailed prediction
+
 <img src="/result/SwinAutoaugmentB-predictdetail.png" alt="Alt text" width="800"/>
 
 ### Grad-CAM Results
