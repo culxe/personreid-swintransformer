@@ -13,7 +13,7 @@ The objective is to develop a deep learning model using the Swin Transformer cla
 Using [RGBNT201 dataset](https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH?usp=sharing), consisting of 201 identities, with 171 identities for training and 30 identities for testing.
 
 ### Data implementation on Swin Transformer
-refer from [Swin transformer: Hierarchical vision transformer using shifted windows](https://arxiv.org/pdf/2103.14030), this is impelementation using multi-modal dataset on Swin Transformer.
+Refer from [Swin transformer: Hierarchical vision transformer using shifted windows](https://arxiv.org/pdf/2103.14030), this is impelementation using multi-modal dataset on Swin Transformer.
 
 #### Patch Embedding
 <img src="/result/bab3_patchembedding.png" alt="Alt text" width="800"/>
