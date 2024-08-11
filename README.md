@@ -34,7 +34,7 @@ refer from [Swin transformer: Hierarchical vision transformer using shifted wind
 |   C  |   ✔    |    ✘     |    ✘    |
 |   D  |   ✔    |    ✔     |    ✘    |
 
-*AutoAugment is applied to each loss variation.*
+*AutoAugment is applied to each loss variation.* We implement the [AutoAugment from this github](https://github.com/DeepVoltaire/AutoAugment)
 
 ## Results
 
